@@ -1,4 +1,7 @@
-Include config_work
+Host *.10sheet.ca *.bench.co
+    User shaily.gupta
+    ForwardAgent yes
+    IdentityFile ~/.ssh/id_rsa
 
 Host github.com
     IdentitiesOnly yes
